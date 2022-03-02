@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  font-family: "Roboto", Sans-Serif;
+}
+
+header{
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+}
+
+header p{
+  color: #f9faf8;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a{
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
