@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  font-family: "Roboto", Sans-Serif;
+  font-family: "Times New Roman", Sans-Serif;
 }
 
 header{
@@ -19,11 +19,49 @@ nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 50%;
 }
 
 nav a{
   color: #e5e7eb;
   font-size: 18px;
   text-decoration: none;
+  margin: 0 5px 0 0;
 }
 
+.main{
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+.main h1{
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+.main-title{
+  width: 40%;
+}
+.main p{
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.main-image{
+  width: 40%;
+  height: auto;
+}
+.main-image img{
+  height: auto;
+  width: 420px;
+}
+
+.main button{
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+}
